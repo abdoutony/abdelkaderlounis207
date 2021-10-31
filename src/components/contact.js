@@ -7,7 +7,7 @@ export default function Contact() {
       <Container className="p-t-50 p-b-70">
         <Row>
           <Col md={12}>
-            <h1 className="text-white text-center m-b-40">Contact me</h1>
+            <h1 className="text-white text-center m-b-0">Contact me</h1>
           </Col>
         </Row>
         <Row className="d-flex justify-content-center">

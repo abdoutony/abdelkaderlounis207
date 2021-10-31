@@ -31,10 +31,10 @@ export default function About() {
     <Container id="about" fluid className="background-primary">
       <Container className="p-t-50 p-b-50">
         <Row>
-          <Col md={3}>
+          <Col md={3} className="d-none d-sm-none d-md-block">
             <Img fluid={data.file.childImageSharp.fluid} alt="robot image" />
           </Col>
-          <Col md={9} className="d-flex justify-content-end">
+          <Col md={9} sm={12} className="d-flex justify-content-end">
             <div className="col-md-9">
               <h1 className="text-white text-center">About me</h1>
               <p className="text-white text-justify">
@@ -50,7 +50,7 @@ export default function About() {
                 <span className="text-pink">Machine Learning</span>, and{" "}
                 <span className="text-pink">Deep Learning</span>
               </p>
-              <div className="text-right m-t-20">
+              <div className="row d-flex justify-content-center">
                 <ButtonDownload
                   href={webDevCv}
                   target="_blank"

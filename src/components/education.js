@@ -22,13 +22,13 @@ export default function Education() {
     <Container id="education" fluid className="background-primary">
       <Container className="p-t-50 p-b-50">
         <Row>
-          <Col md={9}>
+          <Col md={9} sm={12}>
             <h1 className="text-white">Education</h1>
             <Row className="mt-4">
               {AcademicBacground
                 ? AcademicBacground.map((education) => {
                     return (
-                      <Col md={6} xs={12} key={education.id}>
+                      <Col md={6} xs={12} className="m-b-15" key={education.id}>
                         <EducationCard
                           degree={education.educationDegree}
                           field={education.educationField}
@@ -42,7 +42,7 @@ export default function Education() {
                 : "No education Background"}
             </Row>
           </Col>
-          <Col md={3}>
+          <Col md={3} className="d-none d-sm-none d-md-block">
             <Img fluid={data.file.childImageSharp.fluid} alt="robot" />
           </Col>
         </Row>
