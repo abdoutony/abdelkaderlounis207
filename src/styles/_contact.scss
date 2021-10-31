@@ -1,0 +1,49 @@
+.contact-card {
+  border: none;
+  background: transparent;
+  -moz-box-shadow: 0px 0px 5px 6px $color-secondary;
+  -webkit-box-shadow: 0px 0px 5px 6px $color-secondary;
+  box-shadow: 0px 0px 5px 6px $color-secondary;
+}
+
+.contact-input {
+  border-color: $color-pink;
+  background-color: transparent;
+  border-radius: 0;
+  padding: 25px 15px;
+  color: $color-white;
+  margin: 15px 0px;
+}
+.contact-input:focus {
+  background-color: transparent;
+  outline: none;
+  border-color: $color-pink;
+  box-shadow: none;
+  color: $color-pink;
+}
+.contact-input::placeholder {
+  color: $color-white;
+}
+
+.contact-input:focus::-webkit-input-placeholder {
+  opacity: 0;
+}
+
+.button-contact {
+  background-color: transparent;
+  color: $color-white;
+  border-color: $color-pink;
+  border-radius: 0;
+  padding: 9px 35px;
+  margin-bottom: 10px;
+}
+
+.button-contact:hover {
+  background-color: $color-pink;
+  border-color: $color-pink;
+}
+
+.button-contact:active {
+  background-color: $color-pink;
+  border-color: $color-pink;
+}

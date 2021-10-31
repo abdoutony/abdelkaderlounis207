@@ -1,0 +1,22 @@
+#site-navbar {
+  background-color: $color-primary;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+  transition-duration: 0.25s;
+}
+
+.link-nav {
+  text-decoration: none !important;
+  padding: 0 15px 0 15px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: $color-white;
+  transition: all 0.25s;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+  color: $color-pink;
+}

@@ -1,0 +1,102 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+@import "variables";
+@import "hero";
+@import "about";
+@import "skills";
+@import "layout";
+@import "navbar";
+@import "contact";
+
+html {
+  scroll-behavior: smooth;
+}
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: $color-white;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: $color-pink;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: $color-pink;
+}
+
+@font-face {
+  font-family: "Cyberpunk";
+  src: local("Cyberpunk"),
+    url("../fonts/Cyberpunk/Cyberpunk-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PoppinsLight";
+  src: local("PoppinsLight"),
+    url("../fonts/Poppins/Poppins-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "PoppinsMeduim";
+  src: local("PoppinsLight"),
+    url("../fonts/Poppins/Poppins-Medium.ttf") format("truetype");
+}
+
+.text-white {
+  color: $color-white !important;
+}
+.bg-white {
+  background-color: $color-white !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "PoppinsMeduim", sans-serif;
+}
+
+section,
+article,
+main,
+aside,
+div,
+p,
+a,
+span,
+li,
+td,
+th,
+input {
+  font-family: "PoppinsLight", sans-serif;
+}
+
+.background-primary {
+  background-color: $color-primary;
+}
+.text-primary {
+  color: $color-primary;
+}
+.background-pink {
+  background: $color-pink;
+}
+
+.text-pink {
+  color: $color-pink;
+}
+
+.background-green {
+  background-color: $color-green;
+}
+
+.text-green {
+  color: $color-green;
+}
