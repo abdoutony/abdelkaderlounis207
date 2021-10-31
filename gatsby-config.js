@@ -1,8 +1,4 @@
 module.exports = {
-  proxy: {
-    prefix: "/",
-    url: "http://localhost:8000",
-  },
   siteMetadata: {
     siteUrl: "https://www.yourdomain.tld",
     title: `Abdelkader Lounis portfolio`,
@@ -51,13 +47,6 @@ module.exports = {
         path: "./src/fonts/",
       },
       __key: "fonts",
-    },
-
-    {
-      resolve: "gatsby-plugin-load-script",
-      options: {
-        src: "//embed.typeform.com/next/embed.js",
-      },
     },
     {
       resolve: `gatsby-plugin-manifest`,
