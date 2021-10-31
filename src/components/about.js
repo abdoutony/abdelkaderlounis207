@@ -29,7 +29,7 @@ export default function About() {
   `)
   return (
     <Container id="about" fluid className="background-primary">
-      <Container className="p-t-50 p-b-50">
+      <Container className="p-t-110 p-b-50">
         <Row>
           <Col md={3} className="d-none d-sm-none d-md-block">
             <Img fluid={data.file.childImageSharp.fluid} alt="robot image" />

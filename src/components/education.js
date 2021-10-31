@@ -23,7 +23,7 @@ export default function Education() {
       <Container className="p-t-50 p-b-50">
         <Row>
           <Col md={9} sm={12}>
-            <h1 className="text-white">Education</h1>
+            <h1 className="text-white text-center">Education</h1>
             <Row className="mt-4">
               {AcademicBacground
                 ? AcademicBacground.map((education) => {

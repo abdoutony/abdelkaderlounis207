@@ -57,7 +57,7 @@ export default function Hero() {
               </span>
             </div>
           </Col>
-          <Col md={4} className="d-none d-sm-none d-md-block">
+          <Col md={4}>
             <div className="myImgBox">
               <Img fixed={data.mypic.childImageSharp.fixed} alt="my picture" />
             </div>
