@@ -100,3 +100,14 @@ input {
 .text-green {
   color: $color-green;
 }
+
+.NotfoundPage {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.NotfoundPage .backLink{
+  text-decoration: none;
+}
