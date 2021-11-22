@@ -41,6 +41,7 @@ export default function Experience() {
                           from={project.from}
                           to={project.to}
                           description={project.description}
+                          link={project.link}
                         />
                       )
                     })

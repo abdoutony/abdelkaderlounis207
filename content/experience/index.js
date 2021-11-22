@@ -3,7 +3,7 @@ export const ProfessionalExperience = [
     id: 1,
     position: "Web Dev Section Chief",
     workplace: "IT Department",
-    company: "Goodgle Developer Student Clubs USTHB",
+    company: "Google Developer Student Clubs USTHB",
     from: "09/2021",
     to: "Now",
     cityCountry: "Algiers,Algeria",

@@ -28,30 +28,39 @@ export default function Hero() {
         <Row>
           <Col sm={12} md={8} className="p-t-90">
             <h2 className="text-white m-b-0 fs-50">Abdelkader Lounis</h2>
-            <p className="fs-20 text-pink">Data Scientist, Software Engineer</p>
+            <p className="fs-20 text-pink">Software Developer, Data Scientist</p>
             <div className="socialIcons">
               <span className="social_icon_wrapper">
-                <a href="#.">
+                <a
+                  href="https://www.facebook.com/thetechteacher2007"
+                  target="_blank"
+                >
                   <FaFacebookSquare className="social-link fs-30" />
                 </a>
               </span>
               <span className="social_icon_wrapper">
-                <a href="#.">
+                <a
+                  href="https://www.linkedin.com/in/abdelkader-lounis/"
+                  target="_blank"
+                >
                   <FaLinkedin className="social-link fs-30" />
                 </a>
               </span>
               <span className="social_icon_wrapper">
-                <a href="#.">
+                <a href="https://github.com/abdoutony" target="_blank">
                   <FaGithubSquare className="social-link fs-30" />
                 </a>
               </span>
               <span className="social_icon_wrapper">
-                <a href="#.">
+                <a href="https://twitter.com/AbdelkaderLoun1" target="_blank">
                   <FaTwitterSquare className="social-link fs-30" />
                 </a>
               </span>
               <span className="social_icon_wrapper">
-                <a href="#.">
+                <a
+                  href="https://www.youtube.com/c/TheTechTeacher2007"
+                  target="_blank"
+                >
                   <FaYoutubeSquare className="social-link fs-30" />
                 </a>
               </span>

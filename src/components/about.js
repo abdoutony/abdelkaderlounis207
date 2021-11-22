@@ -3,8 +3,8 @@ import { useStaticQuery, graphql } from "gatsby"
 import styled from "styled-components"
 import Img from "gatsby-image"
 import { Container, Row, Col } from "react-bootstrap"
-import webDevCv from "../../content/downloads/Abdelkader'sResume.pdf"
-import dataScienceCv from "../../content/downloads/DataScientistInternResume.pdf"
+import mycv from "../../content/downloads/Abdelkader'sResume.pdf"
+// import dataScienceCv from "../../content/downloads/DataScientistInternResume.pdf"
 export default function About() {
   const ButtonDownload = styled.a`
     background-color: transparent;
@@ -29,7 +29,7 @@ export default function About() {
   `)
   return (
     <Container id="about" fluid className="background-primary">
-      <Container className="p-t-110 p-b-50">
+      <Container className="p-t-50 p-b-50">
         <Row>
           <Col md={3} className="d-none d-sm-none d-md-block">
             <Img fluid={data.file.childImageSharp.fluid} alt="robot image" />
@@ -37,8 +37,8 @@ export default function About() {
           <Col md={9} sm={12} className="d-flex justify-content-end">
             <div className="col-md-9">
               <h1 className="text-white text-center">About me</h1>
-              <p className="text-white text-justify">
-                A Full stack web developer{" "}
+              <p className="text-white text-justify m-b-0">
+                {/* A Full stack web developer{" "}
                 <span className="text-pink">with 5 years of experience</span> in
                 developing web applications, expert in both frontend and backend
                 sides , I can work with 2 stacks ,{" "}
@@ -48,22 +48,31 @@ export default function About() {
                 <span className="text-pink">data scientist</span> i work in the
                 fields of <span className="text-pink">Data Analysis</span>,
                 <span className="text-pink">Machine Learning</span>, and{" "}
-                <span className="text-pink">Deep Learning</span>
+                <span className="text-pink">Deep Learning</span> */}
+                A Full-stack Software Developer and Data Scientist,
+                <span className="text-pink">
+                  more than 5 years of experience
+                </span>{" "}
+                in tech,an expert in{" "}
+                <span className="text-pink">Software Dev</span> in both frontend
+                and backend sides, besides that I'm a{" "}
+                <span className="text-pink">Data Scientist</span> I work in the
+                fields of Data Analysis, Machine Learning, and Deep Learning.
+                During my career, I worked on projects for many clients, managed
+                teams of developers in students clubs at universities, and as a
+                teacher I taught many topics of tech fields to my students on
+                youtube and in real life.
               </p>
-              <div className="row d-flex justify-content-center">
-                <ButtonDownload
+              <div className="row d-flex justify-content-start">
+                {/* <ButtonDownload
                   href={webDevCv}
                   target="_blank"
                   className="btn-9"
                 >
                   <span>Download My Web Dev CV</span>
-                </ButtonDownload>
-                <ButtonDownload
-                  href={dataScienceCv}
-                  target="_blank"
-                  className="btn-9"
-                >
-                  <span>Download My Data Science CV</span>
+                </ButtonDownload> */}
+                <ButtonDownload href={mycv} target="_blank" className="btn-9">
+                  <span>Download My Resume</span>
                 </ButtonDownload>
               </div>
             </div>

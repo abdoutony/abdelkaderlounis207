@@ -6,6 +6,7 @@ export const ProjectsBackgound = [
     to: "02/2021",
     description:
       "I have created a big learning managment system for a school, it contains many features such as video and audio and pdf learning and online examination and live integration and many more features.",
+    link: "https://almaealim.com/",
   },
   {
     id: 2,
@@ -14,6 +15,7 @@ export const ProjectsBackgound = [
     to: "12/2020",
     description:
       "I made a showcase website for developers team, that i'am part in , to present our services and our portfolio.",
+    link: "https://artisandeveloper.github.io/",
   },
   {
     id: 3,
@@ -23,6 +25,7 @@ export const ProjectsBackgound = [
     to: "12/2020",
     description:
       "I have created a desktop application for my end of studies project, this system will allow the management of insurance and sinistre files and bonus payments.",
+    link: null,
   },
   {
     id: 4,
@@ -31,5 +34,6 @@ export const ProjectsBackgound = [
     to: "06/2020",
     description:
       "I have created a website for airline tickets booking and hotel reservations, with this website I have made a blog to publish posts about travel.",
+    link: "https://www.sahaaab.com/#/",
   },
 ]

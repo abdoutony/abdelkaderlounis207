@@ -1,32 +1,33 @@
-export const webTitle = "Web Development"
-export const webDescription = `Full stack web developer, i work with many
-                              technologies, i can make ui for application, also
-                              i can work on the application's logic in the
+export const webTitle = "Software Development"
+export const webDescription = `Full stack Software Developer, i work with many
+                              technologies, i can make ui for applications, also
+                              i can work on applications logic in the
                               backend.`
 export const WebDevSkills = [
   {
     id: 1,
-    technology: "Backend(PHP(Laravel),Nodejs(Express))",
+    technology: "Web FrontEnd(ReactJS(NextJs,Gatsby),VueJS)",
     width: "96%",
   },
   {
     id: 2,
-    technology: "Databases(MySQL,NoSQL(MongoDB))",
-    width: "85%",
-  },
-  {
-    id: 3,
-    technology: "FrontEnd(ReactJS(NextJs,Gatsby),VueJS(NuxtJs))",
+    technology: "Web Backend(PHP(Laravel),Nodejs(Express))",
     width: "96%",
   },
   {
+    id: 3,
+    technology: "Databases(MySQL,NoSQL(MongoDB))",
+    width: "85%",
+  },
+
+  {
     id: 4,
-    technology: "State Managment (Vuex,Redux)",
-    width: "80%",
+    technology: "Backend As A Service(Firebase)",
+    width: "70%",
   },
   {
     id: 5,
-    technology: "UI(Bootstrap,TailwindCSS)",
+    technology: "Mobile Dev(React Native)",
     width: "80%",
   },
 ]

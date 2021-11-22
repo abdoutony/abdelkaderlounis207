@@ -20,7 +20,7 @@ export default function Education() {
   `)
   return (
     <Container id="education" fluid className="background-primary">
-      <Container className="p-t-50 p-b-50">
+      <Container className="p-t-70 p-b-50">
         <Row>
           <Col md={9} sm={12}>
             <h1 className="text-white text-center">Education</h1>
