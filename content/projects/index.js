@@ -24,7 +24,7 @@ export const ProjectsBackgound = [
     from: "07/2020",
     to: "12/2020",
     description:
-      "I have created a desktop application for my end of studies project, this system will allow the management of insurance and sinistre files and bonus payments.",
+      "I have created a desktop application for my end of studies project, this system allows the management of the insurance department operations.",
     link: null,
   },
   {
