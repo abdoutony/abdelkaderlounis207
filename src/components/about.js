@@ -4,7 +4,6 @@ import styled from "styled-components"
 import Img from "gatsby-image"
 import { Container, Row, Col } from "react-bootstrap"
 import mycv from "../../content/downloads/Abdelkader'sResume.pdf"
-// import dataScienceCv from "../../content/downloads/DataScientistInternResume.pdf"
 export default function About() {
   const ButtonDownload = styled.a`
     background-color: transparent;
@@ -38,17 +37,6 @@ export default function About() {
             <div className="col-md-9">
               <h1 className="text-white text-center">About me</h1>
               <p className="text-white text-justify m-b-0">
-                {/* A Full stack web developer{" "}
-                <span className="text-pink">with 5 years of experience</span> in
-                developing web applications, expert in both frontend and backend
-                sides , I can work with 2 stacks ,{" "}
-                <span className="text-pink">LARAVEL/VUEJS</span> stack and{" "}
-                <span className="text-pink">MERN</span> stack , and i am seeking
-                to learn more to improve my web dev career,beside web dev i'am a{" "}
-                <span className="text-pink">data scientist</span> i work in the
-                fields of <span className="text-pink">Data Analysis</span>,
-                <span className="text-pink">Machine Learning</span>, and{" "}
-                <span className="text-pink">Deep Learning</span> */}
                 A Full-stack Software Developer and Data Scientist,
                 <span className="text-pink">
                   more than 5 years of experience
@@ -64,13 +52,6 @@ export default function About() {
                 youtube and in real life.
               </p>
               <div className="row d-flex justify-content-start">
-                {/* <ButtonDownload
-                  href={webDevCv}
-                  target="_blank"
-                  className="btn-9"
-                >
-                  <span>Download My Web Dev CV</span>
-                </ButtonDownload> */}
                 <ButtonDownload href={mycv} target="_blank" className="btn-9">
                   <span>Download My Resume</span>
                 </ButtonDownload>
