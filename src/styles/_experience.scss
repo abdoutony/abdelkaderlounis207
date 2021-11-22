@@ -1,6 +1,7 @@
 .ProjectCard {
   cursor: pointer;
   position: relative;
+  padding: 0;
 }
 
 .overlay {
@@ -15,20 +16,20 @@
   align-items: center;
 }
 .btn-project {
-  visibility: hidden;
+  display: none;
 }
 .NoLinkText {
-  visibility: hidden;
+  display: none;
 }
 .ProjectCard:hover .overlay {
   visibility: visible;
   width: 100%;
 }
 .ProjectCard:hover .btn-project {
-  visibility: visible;
+  display: block;
   transition-delay: 0.2s;
 }
 .ProjectCard:hover .NoLinkText {
-  visibility: visible;
+  display: block;
   transition-delay: 0.3s;
 }
